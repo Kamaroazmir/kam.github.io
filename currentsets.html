@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="styles.css">
+    <title>Current Sets</title>
+
+<style>
+
+	body {
+		background-image: url('legobuilding.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.container {
+	  position: relative;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	}
+
+	.image {
+	  opacity: 1;
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	  transition: .5s ease;
+	  backface-visibility: hidden;
+	}
+
+	.middle {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%)
+	}
+
+	.container:hover .image {
+	  opacity: 0.3;
+	}
+
+	.container:hover .middle {
+	  opacity: 1;
+	}
+
+	.text {
+	  background-color: #4CAF50;
+	  color: white;
+	  font-size: 16px;
+	  padding: 16px 32px;
+	}
+
+	h1 {text-align: center;}
+
+</style>	
+
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="history.html">My History</a></li>
+  <li><a class="active" href="currentsets.html">Current Sets</a></li>
+  <li><a href="futuresets.html">Sets to Own in Future</a></li>
+</ul>
+
+<h1>Hover over the images for more info</h1><br><br>
+
+<div class="container">
+  <img src="10265.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Lego Set 10265 - Obtained in 2020.<br><br>Authentic replica of a 1960s Ford Mustang featuring dark-blue bodywork with white racing stripes, air scoop, 5-spoke rims with road-gripping tires, and a selection customization add-ons.</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="75192.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Lego Set 75192 - Obtained in 2019. <br><br> My favourite set. An amazing LEGO interpretation of Han Solo's unforgettable Corellian freighter. It has all the details that Star Wars fans of any age could wish for, including intricate exterior detailing, upper and lower quad laser cannons, landing legs, lowering boarding ramp and a 4-minifigure cockpit with detachable canopy.</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="76023.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Lego Set 76023 - Obtained in 2015. <br><br> Also my favourite set. This is a LEGO interpretation of the batmobile that was introduced in the movie BATMAN BEGINS, directed by Christopher Nolan and starred by Christian Bale.</div>
+  </div>
+</div>
+
+</body>
+</html>

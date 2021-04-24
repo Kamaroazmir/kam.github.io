@@ -1,0 +1,48 @@
+body {
+  font-size: 28px;
+  font-family: Arial;
+}
+
+body, html {
+	margin: 0;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DBDBDB;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index:300
+}
+
+.progress-bar {
+	z-index: 301;
+	height: 8px;
+	background: #4caf50;
+	width: 0%;
+	}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #B39500;
+}
+
+li a:hover:not(.active) {
+  background-color: #CCCC00;
+  color: black;
+}
